@@ -6,10 +6,14 @@ import './Navbar.css';
 
 class Navbar extends Component{
     state = {clicked: false};
-    handleClick = () => {
-        this.setState({clicked: !this.state.clicked})
-    }
+    // handleClick = () => {
+    //     this.setState({clicked: !this.state.clicked})
+    // }
 
+    handleClick = () => {
+        this.setState((prevState) => ({ clicked: !prevState.clicked }));
+    };
+    
     render(){
         return(
             <>
@@ -36,7 +40,15 @@ class Navbar extends Component{
                     </div>
 
                     <div id="mobile" onClick={this.handleClick}>
-                        <i id="bar" className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
+                        {/* <i id="bar" className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i> */}
+                        {/* <div className={this.state.clicked ? "burger-menu active" : "#burger-menu"} ></div> */}
+                        {/* <div className='burger-manu'></div> */}
+                        {/* <div
+                            className={`burger-menu ${
+                                this.state.clicked ? 'burger-bar clicked' : 'burger-bar unclicked'
+                            }`}
+                        ></div> */}
+                         <i id="bar" className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
                     </div>
 
                 </nav>
