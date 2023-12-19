@@ -7,9 +7,32 @@ nav {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
+.logo-link {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
 .logo-img {
-  width: 100px;
+  width: 60px;
+  /* width: 20%; */
   height: auto;
+  margin-right: 20px;
+}
+
+.logo-name {
+  background: linear-gradient(45deg, #ffc225, #ff5733);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: ;
 }
 
 #navbar {
@@ -27,7 +50,7 @@ nav {
 #navbar li a {
   text-decoration: none;
   font-size: 1.3rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   transition: 0.3s ease-in-out;
 }

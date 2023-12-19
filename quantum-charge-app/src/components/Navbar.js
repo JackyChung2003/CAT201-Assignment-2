@@ -18,13 +18,12 @@ class Navbar extends Component{
         return(
             <>
                 <nav>
-                    <a href="index.html">
-                        <img 
-                            className="logo-img"
-                            src="assets/images/quantum-charge-logo.png" 
-                            alt="QuantumCharge Logo" 
-                        />
-                    </a>
+                    <a href="index.html" class="logo-link">
+                            <div class="logo-container">
+                                <img className="logo-img" src="assets/images/quantum-charge-logo.png" alt="QuantumCharge Icon" />
+                                <h1 className='logo-name'>Convert4U</h1>
+                            </div>
+                        </a>
 
                     <div>
                         <ul id="navbar" className={this.state.clicked ? "navbar active" : "#navbar"}>
