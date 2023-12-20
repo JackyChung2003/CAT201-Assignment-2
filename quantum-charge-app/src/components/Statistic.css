@@ -1,0 +1,59 @@
+.main-statistic {
+  background-color: #241b35; /* Adjust background color as needed */
+  padding: 30px 20px; /* Adjust padding as needed */
+  /* border: 1px solid #ccc; */
+}
+
+.statistic-box {
+  max-width: 1500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.statistic-title {
+  text-align: center;
+  color: #fff; /* Title color */
+  font-size: 36px;
+  margin: 0;
+  /* border: 1px solid #ccc;  */
+}
+
+.statistic-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid #ccc;  */
+}
+
+.statistic {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #0d0d0d; /* Card background color */
+  /* border: 1px solid #ff0000;  */
+  /* border-radius: 10px; Card border-radius */
+  border-radius: 50%;
+  /* width: 30%; Adjust card width as needed */
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 30px rgba(239, 232, 53, 1); /* Card box-shadow */
+}
+
+.statistic h1 {
+  font-size: 36px;
+  color: #fff; /* Title color */
+  margin: 0;
+  /* border: 1px solid #ccc;  */
+}
+
+.statistic p {
+  font-size: 16px;
+  color: #777; /* Text color */
+  margin: 0; /* Remove default margin to ensure better centering */
+}

@@ -236,6 +236,10 @@ video {
     flex-direction: column;
   }
 
+  .brand-name {
+    text-align: center;
+  }
+
   .content-container {
     max-width: 100%;
   }
