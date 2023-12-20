@@ -22,7 +22,7 @@ class Navbar extends Component{
                     <a href="index.html" class="logo-link">
                             <div class="logo-container">
                                 <img className="logo-img" src={LogoImage} alt="QuantumCharge Icon" />
-                                <h1 className='logo-name'>Convert4U</h1>
+                                <h1 className='logo-name'>QuantumCharge</h1>
                             </div>
                         </a>
 
