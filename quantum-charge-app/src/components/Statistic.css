@@ -24,35 +24,59 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
   /* border: 1px solid #ccc;  */
 }
 
-.statistic {
+.statistic-circle-1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  /* border-radius: 20px; */
+  transition: all 0.3s;
+  /* border: 1px solid #ccc; */
+}
+
+.statistic-circle-1:hover {
+  /* box-shadow: 0px 0px 40px rgba(239, 232, 53, 0); Adjusted shadow on hover */
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.5);
+  transform: scale(1.1);
+}
+
+.statistic-circle-2 {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin: 20px;
-  padding: 20px;
   background-color: #0d0d0d; /* Card background color */
-  /* border: 1px solid #ff0000;  */
+
+  /* border: 1px solid #ff0000; */
   /* border-radius: 10px; Card border-radius */
   border-radius: 50%;
   /* width: 30%; Adjust card width as needed */
   width: 200px;
   height: 200px;
   box-shadow: 0 0 30px rgba(239, 232, 53, 1); /* Card box-shadow */
+  transition: all 0.3s;
 }
 
-.statistic h1 {
+/* Hover effect */
+.statistic-circle-2:hover {
+  box-shadow: 0px 0px 40px rgba(239, 232, 53, 0); /* Adjusted shadow on hover */
+  transform: scale(0.98);
+}
+
+.statistic-circle-2 h1 {
   font-size: 36px;
   color: #fff; /* Title color */
   margin: 0;
   /* border: 1px solid #ccc;  */
 }
 
-.statistic p {
+.statistic-circle-2 p {
   font-size: 16px;
   color: #777; /* Text color */
   margin: 0; /* Remove default margin to ensure better centering */
