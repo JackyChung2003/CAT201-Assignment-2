@@ -2,6 +2,7 @@
 // import logoImage from './../assets/images/logo.png';
 import React, { Component } from 'react';
 import './Navbar.css';
+import LogoImage from '../assets/images/quantum-charge-logo.png';
 
 
 class Navbar extends Component{
@@ -20,7 +21,7 @@ class Navbar extends Component{
                 <nav>
                     <a href="index.html" class="logo-link">
                             <div class="logo-container">
-                                <img className="logo-img" src="assets/images/quantum-charge-logo.png" alt="QuantumCharge Icon" />
+                                <img className="logo-img" src={LogoImage} alt="QuantumCharge Icon" />
                                 <h1 className='logo-name'>Convert4U</h1>
                             </div>
                         </a>
