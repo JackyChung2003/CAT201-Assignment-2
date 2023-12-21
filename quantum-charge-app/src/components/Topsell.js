@@ -9,6 +9,20 @@ const Topsell = () => {
       setFlipped(!isFlipped);
     };
 
+    const powerbankDetails = [
+      { attribute: 'Brand', value: 'ABC Electronics' },
+      { attribute: 'Model', value: 'PB-1234' },
+      { attribute: 'Capacity', value: '10000mAh' },
+      { attribute: 'Output Ports', value: '2' },
+      { attribute: 'Output Current', value: '5V/2A (Each)' },
+      { attribute: 'Input', value: '5V/2A' },
+      { attribute: 'Battery Type', value: 'Lithium Polymer' },
+      { attribute: 'Charging Time', value: '4-6 hours' },
+      { attribute: 'Dimensions', value: '150 x 75 x 10 mm' },
+      { attribute: 'Weight', value: '200g' },
+      // Add more attributes and values as needed
+    ];
+
     return (
         <div className='main-topsell'>
             <div className={`flip-card${isFlipped ? ' flipped' : ''}`}>
@@ -18,14 +32,12 @@ const Topsell = () => {
                         <img src={Powerbank1} alt='Powerbank1' />
                     </div>
                     <div className='product-info'>
-                        <h1>BEST SALLER of the year</h1>
-                        <br />
-                        <br />
-                        <br />
-                        <br />
-                        <h1>Quantum S8 Ultra</h1>
-                        <p>A powerhouse of innovation and style. Experience rapid charging and futuristic design, setting a new standard in portable energy.</p>
-                        <p>T&C Apply.</p>
+                        <h1 className='product-title'>BEST SALLER of the year</h1>
+                        <div className='product-front-info'>
+                          <h1>Quantum S8 Ultra</h1>
+                          <p>A powerhouse of innovation and style. Experience rapid charging and futuristic design, setting a new standard in portable energy.</p>
+                          <p>T&C Apply.</p>
+                        </div>
 
                         <div className='button-container'>  
                           <button className="flip-button" onClick={handleFlip}>
@@ -40,12 +52,42 @@ const Topsell = () => {
                   {/* <p className="title">FLIP CARD</p>
                   <p>Hover Me</p> */}
                 </div>
-                <div className="flip-card-back">
+                {/* <div className="flip-card-back">
                   <p className="title">BACK</p>
                   <p>Leave Me</p>
                   <button className="flip-button" onClick={handleFlip}>
                     Flip Card
                   </button>
+                </div> */}
+                <div className="flip-card-back">
+                  <p className="title">Product Details</p>
+
+                  {/* Table for Powerbank Details */}
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Attribute</th>
+                        <th>Value</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {powerbankDetails.map((detail, index) => (
+                        <tr key={index}>
+                          <td>{detail.attribute}</td>
+                          <td>{detail.value}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                      
+                  <div className='button-container'>  
+                          <button className="flip-button" onClick={handleFlip}>
+                            <span class="hover-underline-animation"> Return </span>
+                          </button>
+                          <button className="buy-button" onClick={handleFlip}>
+                            <span>Buy Now</span>
+                          </button>
+                        </div>
                 </div>
 
               </div>
