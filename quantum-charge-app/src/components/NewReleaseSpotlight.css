@@ -11,37 +11,68 @@
   padding: 20px;
 }
 
-.title {
+.title,
+.end-title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 20px;
   color: #fff;
   /* border: 1px solid #fff; */
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #241b35;
+  /* background-color: #362e45; */
+  /* border: 1px solid #fff; */
+  position: relative;
+  z-index: 1;
+  padding: 0 50px;
+  margin: 10px;
 }
 
 .title::before,
-.title::after {
+.title::after,
+.end-title::before,
+.end-title::after {
   content: "";
   display: inline-block;
   height: 1px;
-  width: 35%; /* Adjust the width of the lines as needed */
+  /* width: 35%; Adjust the width of the lines as needed */
   background-color: #cb80ff;
   vertical-align: middle;
+  position: absolute; /* Use position: absolute to position the lines relative to the title */
+  top: 50%;
+  z-index: -1;
 }
 
-.title::before {
-  margin-right: 30px; /* Adjust the spacing between the lines and the text */
+.title::before,
+.end-title::before {
+  /* margin-right: 30px;  */
+  right: 55%; /* Position the left line to the left of the title */
+  width: 40%;
 }
 
-.title::after {
-  margin-left: 30px; /* Adjust the spacing between the lines and the text */
+.title::after,
+.end-title::after {
+  /* margin-left: 30px;  */
+  left: 55%; /* Position the right line to the right of the title */
+  width: 40%;
 }
 
 .new-release-spotlight-container {
   display: flex;
   /* justify-content: space-between; */
   justify-content: space-around;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   /* border: 1px solid #ed9a9a; */
@@ -68,6 +99,7 @@
   text-align: center;
   margin-top: 8%;
   transition: transform 0.5s;
+  margin-bottom: 20px; /* Add space between products */
 }
 
 .product img {
@@ -123,6 +155,16 @@
   margin-top: -35%; /* Adjust the margin when the image is scaled */
 }
 
+.end-title p {
+  background-color: #241b35;
+  /* background-color: #362e45; */
+  /* border: 1px solid #fff; */
+  position: relative;
+  z-index: 1;
+  padding: 0 25px;
+  margin: 10px;
+}
+
 .explore-button {
   display: inline-block;
   border-radius: 4px;
@@ -163,4 +205,33 @@
 .explore-button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .new-release-spotlight-container {
+    flex-direction: column; /* Change to a column layout on smaller screens */
+  }
+
+  .product {
+    width: 100%; /* Take up the full width on smaller screens */
+  }
+
+  .product img {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .product:hover img,
+  .product:hover .product-detail {
+    transform: scale(1.01); /* Adjust the scale factor as needed */
+  }
+
+  .product:hover img {
+    margin-top: -15%; /* Adjust the margin when the image is scaled */
+  }
+
+  .title p {
+    padding: 0 20px;
+  }
 }
