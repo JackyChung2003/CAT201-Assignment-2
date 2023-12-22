@@ -2,6 +2,8 @@
 import React from 'react';
 import './NewReleaseSpotlight.css'; // Import the CSS file for styling
 import New_Powerbank1 from '../assets/images/new_powerbank_1.png';
+import New_Powerbank2 from '../assets/images/new_powerbank_2.png';
+import New_Powerbank3 from '../assets/images/new_powerbank_3.png';
 
 const NewReleaseSpotlight = () => {
   return (
@@ -21,7 +23,7 @@ const NewReleaseSpotlight = () => {
 
         <div className="product">
           <img
-            src={New_Powerbank1}
+            src={New_Powerbank2}
             alt="Product 1"
           />
           <div className='product-detail'>
@@ -32,7 +34,7 @@ const NewReleaseSpotlight = () => {
 
         <div className="product">
           <img
-            src={New_Powerbank1}
+            src={New_Powerbank3}
             alt="Product 1"
           />
           <div className='product-detail'>
@@ -42,9 +44,11 @@ const NewReleaseSpotlight = () => {
         </div>
       </div>
 
-      <div className="ending">ending</div>
+      {/* <div className="ending">ending</div> */}
       <div className="title">
-        
+        <button className="explore-button" >
+          <span>Explore more</span>
+        </button>
       </div>
       
       {/* <button className="explore-button">Explore More</button> */}

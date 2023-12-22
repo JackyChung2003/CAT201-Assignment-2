@@ -111,9 +111,44 @@
   margin-bottom: 20px;
 }
 
-.ending {
-  font-size: 1.5rem;
-  margin-top: 20px;
-  border: 1px solid #fff;
-  color: #fff;
+.explore-button {
+  display: inline-block;
+  border-radius: 4px;
+  /* background-color: #fdd835; */
+  background: linear-gradient(to right bottom, #ffeb3b, #c9a91a);
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.explore-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.explore-button span:after {
+  content: "🚀";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -25px;
+  transition: 0.5s;
+}
+
+.explore-button:hover span {
+  padding-right: 25px;
+}
+
+.explore-button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
