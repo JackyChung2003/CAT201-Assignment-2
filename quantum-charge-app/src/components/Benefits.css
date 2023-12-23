@@ -32,6 +32,8 @@
 
 .text {
   flex: 1;
+  display: flex;
+  flex-direction: column;
   padding: 90px; /* Add padding to the text side */
   border: 1px solid #fff; /* Add a border around the text */
 }
@@ -74,4 +76,28 @@
 
   object-fit: cover;
   display: block;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .item {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .text {
+    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .text h2,
+  .text p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text p {
+    width: 100%;
+  }
 }
