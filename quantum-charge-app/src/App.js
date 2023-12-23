@@ -7,6 +7,7 @@ import VideoBackground from './components/VideoBackground';
 import Statistic from './components/Statistic';
 import Topsell from './components/Topsell';
 import NewReleaseSpotlight from './components/NewReleaseSpotlight';
+import Benefits from './components/Benefits';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Statistic/>
       <Topsell/>
       <NewReleaseSpotlight/>
+      <Benefits/>
     </div>
   );
 }

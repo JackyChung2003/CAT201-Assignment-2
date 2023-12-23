@@ -1,0 +1,77 @@
+/* WhyChooseSection.css */
+
+.benefits {
+  background-color: #241b35; /* Set a background color for the section */
+  /* padding: 50px 0; */
+  border: 1px solid #ddd; /* Add a border around the section */
+}
+
+.benefits h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff; /* Set the text color */
+  border: 1px solid #fff; /* Add a border around the text */
+  text-align: center;
+  /* margin-bottom: 40px; */
+}
+
+.content {
+  /* max-width: 1200px;  */
+  margin: 0 auto;
+  border: 1px dashed #fff; /* Add a border around the content */
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 40px; /* Adjust the margin between items */
+  border: 1px solid #ffb8b8; /* Add a border around the items */
+}
+
+.text {
+  flex: 1;
+  padding: 90px; /* Add padding to the text side */
+  border: 1px solid #fff; /* Add a border around the text */
+}
+
+.text h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff; /* Set the text color */
+  border: 1px solid #fff; /* Add a border around the text */
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.text p {
+  width: 70%;
+  font-size: 1.5rem;
+  color: #fff; /* Set the text color */
+  border: 1px solid #fff; /* Add a border around the text */
+  text-align: left;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  /* padding: 0 20px;  */
+  border: 1px solid #fff; /* Add a border around the image */
+  max-width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  /* max-height: 600px; */
+  border: 1px solid #fff;
+
+  object-fit: cover;
+  display: block;
+}
