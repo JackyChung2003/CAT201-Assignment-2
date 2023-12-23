@@ -10,6 +10,7 @@ import NewReleaseSpotlight from './components/NewReleaseSpotlight';
 import Benefits from './components/Benefits';
 import Banner from './components/Banner';
 import AboutUs from './components/AboutUs';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
       <Benefits/>
       <Banner/>
       <AboutUs/>
+      <Footer/>
     </div>
   );
 }
