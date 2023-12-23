@@ -9,6 +9,7 @@ import Topsell from './components/Topsell';
 import NewReleaseSpotlight from './components/NewReleaseSpotlight';
 import Benefits from './components/Benefits';
 import Banner from './components/Banner';
+import AboutUs from './components/AboutUs';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <NewReleaseSpotlight/>
       <Benefits/>
       <Banner/>
+      <AboutUs/>
     </div>
   );
 }
