@@ -45,16 +45,30 @@ const AboutUs = () => {
                 <div className="box-image">
                   <img src={Team_Picture} alt="Team Pictures" />
                 </div>
+                {/* <div className="about-box-text">
+                    <h2>Our Dream Team</h2>
+                    <p>Crafted by a team of four exceptional individuals, exclusively tailored for the CAT Assignment 2.</p>
+                    
+                    <button className="about-us-cta-button">Learn More</button>
+                </div> */}
                 <h2>Our Dream Team</h2>
                 <p>Crafted by a team of four exceptional individuals, exclusively tailored for the CAT Assignment 2.</p>
-                <button>Explore</button>
+                <button className="about-us-cta-button">Learn More</button>
+                
               </div>
               <div className="right-box">
                 <div className="box-image">
                   <img src={Feedback_Picture} alt="Feedback Pictures" />
                 </div>
-                <p>Join Our Community</p>
-                <button>Connect</button>
+                {/* <div className="about-box-text">
+                    <h2>Our Dream Team</h2>
+                    <p>We'd love to hear your thoughts on DREAM TEAM and QuantumCharge. Share your feedback to help us improve and better serve your needs. Thank you for being a valued part of our community.</p>
+                    
+                    <button className="about-us-cta-button">Learn More</button>
+                </div> */}
+                <h2>Your Voice Matters</h2>
+                <p>We'd love to hear your thoughts on DREAM TEAM and QuantumCharge. Share your feedback to help us improve and better serve your needs. Thank you for being a valued part of our community.</p>
+                <button className="about-us-cta-button">Learn More</button>
               </div>
             </div>
         </div>
