@@ -8,7 +8,9 @@ import New_Powerbank3 from '../assets/images/new_powerbank_3.png';
 const NewReleaseSpotlight = () => {
   return (
     <div className="new-release-spotlight">
-      <div className="title">New Release Spotlight</div>
+      <div className="title">
+        <p>New Release Spotlight</p>
+        </div>
       <div className='new-release-spotlight-container'>
         <div className="product">
           <img
@@ -45,10 +47,15 @@ const NewReleaseSpotlight = () => {
       </div>
 
       {/* <div className="ending">ending</div> */}
-      <div className="title">
+      <div className="end-title">
+        <p>
         <button className="explore-button" >
           <span>Explore more</span>
         </button>
+        </p>
+        {/* <button className="explore-button" >
+          <span>Explore more</span>
+        </button> */}
       </div>
       
       {/* <button className="explore-button">Explore More</button> */}
