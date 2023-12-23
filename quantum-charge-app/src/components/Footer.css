@@ -1,0 +1,68 @@
+/* Footer Styles */
+
+.footer {
+  background-color: #242424;
+  color: #fff;
+  padding: 20px;
+}
+
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: 1px solid #555;
+  flex: 1;
+}
+
+.company-info {
+  /* max-width: 200px; */
+  margin-top: 10px;
+  border: 1px solid #555;
+  text-align: left;
+}
+
+.about-section {
+  flex: 1;
+  max-width: 200px; /* Adjust the maximum width of the about section */
+  border: 1px solid #555;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+  border: 1px solid #555;
+  margin: 10px;
+  padding: 10px;
+}
+
+.about-section li {
+  margin-bottom: 5px;
+}
+
+.separator {
+  border: 1px solid #555;
+  margin-bottom: 15px;
+}
+
+.lower-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+}
+.social-media-icons span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Add styles for your social media icons as needed */
