@@ -1,0 +1,28 @@
+.banner-section {
+  /* background-color: #241b35; */
+  /* background: linear-gradient(45deg, #cb80ff, #a364ff); */
+  background: linear-gradient(135deg, #cb80ff, #a364ff);
+  padding: 50px;
+  text-align: center;
+}
+
+.banner-message {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  /* border: 1px solid #000; */
+  width: 10%;
+}
