@@ -36,8 +36,10 @@
   width: 45%;
   display: flex;
   flex-direction: column;
-  padding: 90px; /* Add padding to the text side */
-  border: 1px solid #fff; /* Add a border around the text */
+  margin-top: 50px;
+  padding: 50px; /* Add padding to the text side */
+  border: 1px solid #fff;
+  overflow: hidden;
 }
 
 .text h2 {
@@ -45,7 +47,7 @@
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff; /* Set the text color */
-  border: 1px solid #fff; /* Add a border around the text */
+  border: 1px solid #fff;
   text-align: left;
   margin-bottom: 40px;
 }
@@ -54,8 +56,9 @@
   width: 100%;
   font-size: 1.5rem;
   color: #fff; /* Set the text color */
-  border: 1px solid #fff; /* Add a border around the text */
+  border: 1px solid #fff;
   text-align: left;
+  /* overflow: hidden; */
 }
 
 .image {
@@ -114,7 +117,7 @@
   .image {
     width: 100%;
     /* height: 50%; */
-    max-height: 400px;
+    max-height: 300px;
     border-radius: 1rem 1rem 0 0;
   }
 }
