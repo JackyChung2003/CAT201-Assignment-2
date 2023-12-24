@@ -17,15 +17,6 @@
   margin-top: 20px;
 }
 
-.est-section {
-  display: flex;
-  /* justify-content: space-between;
-  margin-bottom: 20px; */
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid #e34444;
-}
-
 .est-title {
   font-size: 1.5rem;
   font-weight: bold;
@@ -80,6 +71,15 @@
   width: 40%;
 }
 
+.est-section {
+  display: flex;
+  /* justify-content: space-between;
+  margin-bottom: 20px; */
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #e34444;
+}
+
 /* About Text */
 .about-text {
   text-align: center;
@@ -104,6 +104,7 @@
   /* font-size: 20px; */
   /* font-family: "Times New Roman", Times, serif; */
 }
+
 /* Mission and Vision Section */
 .mission-vision-section {
   display: flex;
@@ -231,4 +232,47 @@
   border: none;
   box-shadow: 3px 3px 4px rgba(79, 19, 107, 0.5);
   margin: 15px;
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .est-title p {
+    padding: 0 30px;
+  }
+
+  .about-text {
+    width: 90%;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .mission-vision-section {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .left-section p,
+  .right-section p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+    margin: 10px 0;
+  }
 }
