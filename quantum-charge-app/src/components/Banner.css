@@ -10,6 +10,7 @@
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
+  border: 1px solid #fff;
   margin-bottom: 15px;
 }
 
@@ -22,7 +23,10 @@
 
   border: none;
   cursor: pointer;
+  /* border-radius: 20px; */
   border-radius: 20px;
   /* border: 1px solid #000; */
-  width: 10%;
+  /* width: 10%; */
+  width: 100%;
+  max-width: 150px;
 }
