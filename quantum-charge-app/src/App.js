@@ -11,6 +11,7 @@ import Benefits from './components/Benefits';
 import Banner from './components/Banner';
 import AboutUs from './components/AboutUs';
 import Footer from './components/Footer';
+import Promoting from './components/Promoting';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Statistic/>
       <Topsell/>
       <NewReleaseSpotlight/>
+      <Promoting/>
       <Benefits/>
       <Banner/>
       <AboutUs/>
