@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         {/* About Section */}
-        <div className="about-section">
+        <div className="about-section">                                           
           <h3>Product</h3>
           <ul>
             <li>Features</li>
@@ -56,8 +56,9 @@ const Footer = () => {
 
       {/* Lower Section */}
       <div className="lower-section">
-        <p>Copyright © 2023 CAT_ASSIGNMENT_2_GROUP_22. All rights reserved.</p>
-
+        <div className='copy-right'>
+          <p>Copyright © 2023 CAT_ASSIGNMENT_2_GROUP_22. All rights reserved.</p>
+        </div>
         {/* Social Media Icons */}
         <div className="social-media-icons">
           <h3>Follow Us</h3>
