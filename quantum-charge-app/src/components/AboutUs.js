@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutUs.css'; // Import your CSS file
 
 import Team_Picture from '../assets/images/team_picture.jpg';
-import Feedback_Picture from '../assets/images/feedback_picture.jpg';
+import Feedback_Picture from '../assets/images/feedback_picture.jpeg';
 
 const AboutUs = () => {
   return (
