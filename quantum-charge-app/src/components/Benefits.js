@@ -1,7 +1,7 @@
 // Benefits.js
 import React, { useState, useEffect } from 'react';
 import './Benefits.css'; // Import your CSS file for styling
-import Features1 from '../assets/images/features_portability.jpg';
+import Features1 from '../assets/images/features_portability.jpeg';
 import Features2 from '../assets/images/features_reliable.jpg';
 import Features3 from '../assets/images/features_fast.jpeg';
 
