@@ -1,0 +1,92 @@
+/* Your CSS file */
+
+.promoting {
+  /* Add styles for the promoting section */
+}
+
+.promoting-upper-section {
+  /* Add styles for the upper section */
+  background: linear-gradient(to bottom, #241b35, #56427a);
+}
+
+.promoting-upper-section-image {
+  /* border: 1px solid red; */
+  /* height: auto; */
+  height: 100px;
+  width: 100%;
+  /* background: linear-gradient(to bottom, #f00, #00f); */
+  background-image: url("../assets/images/street_bg.png");
+  /* background-image: url("../street_bg.png"); */
+  background-repeat: repeat-x;
+  /* background-size: contain; */
+  background-size: 30%;
+  background-position: center bottom;
+  /* margin-top: 20px; */
+  padding: 20px;
+  /* background-size: cover; */
+  /* Add other styles for the upper section image */
+}
+
+.promoting-lower-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.promoting-left-section {
+  background: linear-gradient(to bottom, #241b35, #56427a);
+  width: 55%;
+}
+
+.promoting-video-section {
+  /* Add styles for the video section */
+}
+
+.promoting-right-section {
+  border: 1px solid red;
+  position: relative;
+  overflow: hidden;
+  height: 400px; /* Set a fixed height for the section */
+  width: 45%;
+  display: flex;
+  /* background: linear-gradient(to bottom, #241b35, #56427a); */
+  background: #000000;
+}
+
+.quantum-video-background {
+  /* flex: 1; */
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* position: relative; */
+  z-index: 0;
+  /* border: 5px solid red; */
+}
+
+.promoting-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: 0;
+  /* border: 1px solid #fff; */
+}
+
+.promoting-content-overlay {
+  flex: 1; /* Expand to fill available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Set text color for contrast */
+  padding: 20px;
+  z-index: 1;
+}
+
+.promoting-about-us-cta-button {
+  /* Add styles for the Learn More button */
+}
