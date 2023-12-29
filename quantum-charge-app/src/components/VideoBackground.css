@@ -122,7 +122,7 @@ video {
   line-height: 1.5;
   color: #fff;
   margin-bottom: 20px;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
   width: 90%;
 }
 

@@ -24,7 +24,7 @@ const Topsell = () => {
     ];
 
     return (
-        <div className='main-topsell'>
+        <div className='main-topsell' id='populars'>
             <div className={`flip-card${isFlipped ? ' flipped' : ''}`}>
               <div className="flip-card-inner" style={{ transform: isFlipped ? 'rotateY(180deg)' : 'rotateY(0)' }}>
                 <div className="flip-card-front">

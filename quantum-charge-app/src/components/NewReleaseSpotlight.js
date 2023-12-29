@@ -7,7 +7,7 @@ import New_Powerbank3 from '../assets/images/new_powerbank_3.png';
 
 const NewReleaseSpotlight = () => {
   return (
-    <div className="new-release-spotlight">
+    <div className="new-release-spotlight" id='new-releases'>
       <div className="title">
         <p>New Release Spotlight</p>
         </div>

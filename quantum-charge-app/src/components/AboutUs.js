@@ -6,7 +6,7 @@ import Feedback_Picture from '../assets/images/feedback_picture.jpeg';
 
 const AboutUs = () => {
   return (
-    <div className="about-us-section">
+    <div className="about-us-section" id='about'>
         <h1>About Us</h1>
         
         <div className="est-title">
