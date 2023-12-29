@@ -1,3 +1,15 @@
+.header {
+  position: fixed;
+  /* height: 90px; */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: 0.3s ease-in;
+  overflow: hidden;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -55,8 +67,13 @@ nav {
   transition: 0.3s ease-in-out;
 }
 
+/* .nav-items .active{
+  color: #ffc225;
+} */
+
 #navbar li a:hover,
 #navbar li a.active {
+  cursor: pointer;
   color: #ffc225;
 }
 

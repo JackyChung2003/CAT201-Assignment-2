@@ -5,7 +5,7 @@ import VideoBg from '../assets/videos/powerbank-video-bg.mp4';
 
 const VideoBackground = () => {
   return (
-    <div className='main'>
+    <div className='main' id='home'>
       {/* background video */}
       <video src={VideoBg} autoPlay loop muted className='background-video' />
 

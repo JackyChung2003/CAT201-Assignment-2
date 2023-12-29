@@ -4,7 +4,7 @@ import LogoImage from '../assets/images/quantum-charge-logo.png';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id='contact'>
       {/* Upper Section */}
       <div className="upper-section">
         {/* Logo and Name Section */}

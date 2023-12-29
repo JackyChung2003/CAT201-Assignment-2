@@ -23,7 +23,7 @@ const Benefits = () => {
   }, []);
   
   return (  
-    <section className="benefits">
+    <section className="benefits" id='why-us'>
       <h1>Why choose QuantumCharge?</h1>
       
       {/* <div className="content">
