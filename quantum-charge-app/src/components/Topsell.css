@@ -20,12 +20,12 @@
   /* transform: scale(1.01); */
 }
 
-.title {
+/* .product-title {
   font-size: 1.5em;
   font-weight: 900;
   text-align: center;
   margin: 0;
-}
+} */
 
 .flip-card-inner {
   position: relative;
@@ -280,6 +280,24 @@ td {
   .flip-card-back {
     /* Change to row layout for larger screens */
     flex-direction: column;
+  }
+
+  .product-title {
+    font-size: 1.5rem;
+  }
+
+  .product-front-info h1 {
+    font-size: 2rem;
+
+    /* margin: 10px 0; */
+    margin-bottom: 10px;
+    /* border: 1px solid coral; */
+  }
+
+  .product-front-info p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    /* border: 1px solid coral; */
   }
 
   .product-image {

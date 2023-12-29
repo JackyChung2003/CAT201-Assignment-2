@@ -60,7 +60,7 @@ const Topsell = () => {
                   </button>
                 </div> */}
                 <div className="flip-card-back">
-                  <p className="title">Product Details</p>
+                  <h1 className="product-title">Product Details</h1>
 
                   {/* Table for Powerbank Details */}
                   <table>

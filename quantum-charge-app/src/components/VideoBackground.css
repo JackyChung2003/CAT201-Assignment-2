@@ -70,8 +70,8 @@ video {
 
 .name-container,
 .content-container {
-  /* margin-bottom: 20px;
-  border: 1px solid #fff; */
+  /* margin-bottom: 20px; */
+  /* border: 1px solid #fff; */
 
   flex: 1;
   display: flex;
@@ -232,15 +232,49 @@ video {
 @media only screen and (max-width: 768px) {
   .landing-main-content {
     margin-top: 100px;
-    height: 700px;
+    /* height: 700px; */
+    height: 100%;
     flex-direction: column;
+  }
+
+  .name-container {
+    /* text-align: center; */
+    margin: 70px 0;
+    /* padding: 0; */
   }
 
   .brand-name {
     text-align: center;
+    font-size: 28px;
   }
 
   .content-container {
     max-width: 100%;
+  }
+
+  .logo-name-xl {
+    font-size: 36px;
+  }
+
+  .content-container p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 20px;
+    /* border: 1px solid #fff; */
+    width: 90%;
+  }
+
+  .cta-button,
+  .cta-button::after {
+    /* padding: 10px 50px; */
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    position: none;
+    border: 1px solid rgba(0, 255, 213, 0.5);
+    width: 100%;
   }
 }

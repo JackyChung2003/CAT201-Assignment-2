@@ -236,8 +236,17 @@
 
 /* Media Queries for responsiveness */
 @media only screen and (max-width: 768px) {
+  .about-us-section h1 {
+    text-align: center;
+    color: #fff;
+    /* border: 1px solid #ddd; */
+    margin-top: 20px;
+    font-size: 26px;
+  }
+
   .est-title p {
     padding: 0 30px;
+    font-size: 1.2rem;
   }
 
   .about-text {
@@ -274,5 +283,22 @@
   .right-box {
     width: 100%;
     margin: 10px 0;
+  }
+
+  .left-box h2,
+  .right-box h2 {
+    font-size: 26px;
+    padding: 0 15px;
+    margin: 10px 0;
+  }
+
+  .left-box p,
+  .right-box p {
+    font-size: 14px;
+  }
+
+  .about-us-cta-button {
+    font-size: 14px;
+    width: auto;
   }
 }

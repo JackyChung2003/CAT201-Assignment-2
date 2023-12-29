@@ -7,7 +7,7 @@
 .statistic-box {
   width: 80%;
   margin: 0 auto;
-  border: 1px solid #ccc;
+  border: 1px solid #b0d95f;
   border-radius: 50px;
 }
 
@@ -69,8 +69,24 @@
   transform: scale(0.98);
 }
 
+.statistic-data {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid #ccc; */
+}
+
 .statistic-circle-2 h1 {
   font-size: 36px;
+  color: #fff; /* Title color */
+  margin: 0;
+  /* border: 1px solid #ccc;  */
+}
+
+.statistic-circle-2 span {
+  font-size: 36px;
+  font-weight: bold;
   color: #fff; /* Title color */
   margin: 0;
   /* border: 1px solid #ccc;  */
@@ -80,4 +96,34 @@
   font-size: 16px;
   color: #777; /* Text color */
   margin: 0; /* Remove default margin to ensure better centering */
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .statistic-title {
+    font-size: 26px;
+    /* border: 1px solid #ccc; */
+    margin: 20px;
+  }
+
+  .statistic-container {
+    flex-direction: column; /* Stack circles vertically on smaller screens */
+    align-items: center;
+  }
+
+  .statistic-circle-1 {
+    margin-bottom: 40px; /* Add spacing between circles */
+    border-radius: 20%;
+  }
+  .statistic-circle-2 {
+    margin-bottom: 40px; /* Add spacing between circles */
+    border-radius: 20%;
+    /* width: 100px; */
+  }
+
+  .statistic-circle-2 h1,
+  .statistic-circle-2 span,
+  .statistic-circle-2 p {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
 }
