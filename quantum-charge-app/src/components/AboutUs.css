@@ -211,7 +211,7 @@
 .left-box p,
 .right-box p {
   text-align: left;
-  color: #fff;
+  /* color: #fff; */
   /* border: 1px solid #ddd; */
   width: 85%;
   /* padding: 0 15px; */
