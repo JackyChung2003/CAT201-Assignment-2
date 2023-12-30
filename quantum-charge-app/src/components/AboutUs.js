@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import TeamMemberDetails from './TeamMemberDetails';
 import './AboutUs.css'; // Import your CSS file
 
 import Team_Picture from '../assets/images/team_picture.jpg';
 import Feedback_Picture from '../assets/images/feedback_picture.jpeg';
 
 const AboutUs = () => {
+  const [isPopOutVisible, setIsPopOutVisible] = useState(false);
+
+  const handlePopOutToggle = () => {
+    setIsPopOutVisible(!isPopOutVisible);
+  };
+
+  const closePopOut = () => {
+    setIsPopOutVisible(false);
+  };
+
   return (
     <div className="about-us-section" id='about'>
         <h1>About Us</h1>
@@ -53,8 +64,12 @@ const AboutUs = () => {
                 </div> */}
                 <h2>Our Dream Team</h2>
                 <p>Crafted by a team of four exceptional individuals, exclusively tailored for the CAT Assignment 2.</p>
-                <button className="about-us-cta-button">Learn More</button>
-                
+                {/* <button className="about-us-cta-button">Learn More</button> */}
+                <button className="about-us-cta-button" onClick={handlePopOutToggle}>
+                  Learn More
+                </button>
+
+                {isPopOutVisible && <TeamMemberDetails onClose={closePopOut} />}
               </div>
               <div className="right-box">
                 <div className="box-image">
