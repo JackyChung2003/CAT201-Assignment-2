@@ -14,6 +14,7 @@
   position: relative; /* Added position relative for absolute positioning of button */
   transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
   margin: 20px 0;
+  z-index: 2;
 }
 
 .flip-card:hover {
