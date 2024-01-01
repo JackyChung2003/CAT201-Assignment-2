@@ -102,6 +102,7 @@
   margin-bottom: 10px;
   /* border: 1px solid #ab5555; */
   text-align: left;
+  padding: 10px;
 }
 
 /* Styles for individual error reasons */
@@ -109,6 +110,8 @@
   font-size: 18px;
   color: #666; /* Medium gray color, you can adjust this as needed */
   margin: 5px 10px;
+  text-align: left;
+  background-color: #ffffff;
   /* border: 1px solid #ab5555; */
 }
 
@@ -118,6 +121,8 @@
   color: #333; /* Dark color, you can adjust this as needed */
   margin-top: 10px;
   /* border: 1px solid #ab5555; */
+  padding: 10px;
+  text-align: left;
 }
 
 /* Optional: Add hover styles for better user interaction */
