@@ -1,21 +1,28 @@
 import React, { useState } from 'react';
 import TeamMemberDetails from './TeamMemberDetails';
+import PopOutNotDevelop from './PopOutNotDevelop';
+// import PopOutNotDevelop from './PopOutNotDevelop';
 import './AboutUs.css'; // Import your CSS file
 
 import Team_Picture from '../assets/images/team_picture.jpg';
 import Feedback_Picture from '../assets/images/feedback_picture.jpeg';
 
 const AboutUs = () => {
-  const [isPopOutVisible, setIsPopOutVisible] = useState(false);
+  const [isTeamPopOutVisible, setIsTeamPopOutVisible] = useState(false);
+  const [isFeedbackPopOutVisible, setIsFeedbackPopOutVisible] = useState(false);
 
-  const handlePopOutToggle = () => {
-    setIsPopOutVisible(!isPopOutVisible);
+  const handleTeamPopOutToggle = () => {
+    setIsTeamPopOutVisible(!isTeamPopOutVisible);
   };
 
-  const closePopOut = () => {
-    setIsPopOutVisible(false);
+  const handleFeedbackPopOutToggle = () => {
+    setIsFeedbackPopOutVisible(!isFeedbackPopOutVisible);
   };
 
+  const closePopOuts = () => {
+    setIsTeamPopOutVisible(false);
+    setIsFeedbackPopOutVisible(false);
+  };
   return (
     <div className="about-us-section" id='about'>
         <h1>About Us</h1>
@@ -65,11 +72,11 @@ const AboutUs = () => {
                 <h2>Our Dream Team</h2>
                 <p>Crafted by a team of four exceptional individuals, exclusively tailored for the CAT Assignment 2.</p>
                 {/* <button className="about-us-cta-button">Learn More</button> */}
-                <button className="about-us-cta-button" onClick={handlePopOutToggle}>
+                <button className="about-us-cta-button" onClick={handleTeamPopOutToggle}>
                   Learn More
                 </button>
 
-                {isPopOutVisible && <TeamMemberDetails onClose={closePopOut} />}
+                {isTeamPopOutVisible  && <TeamMemberDetails onClose={closePopOuts} />}
               </div>
               <div className="right-box">
                 <div className="box-image">
@@ -83,7 +90,10 @@ const AboutUs = () => {
                 </div> */}
                 <h2>Your Voice Matters</h2>
                 <p>We'd love to hear your thoughts on DREAM TEAM and QuantumCharge. Share your feedback to help us improve and better serve your needs. Thank you for being a valued part of our community.</p>
-                <button className="about-us-cta-button">Learn More</button>
+                <button className="about-us-cta-button" onClick={handleFeedbackPopOutToggle}>
+                  Learn More
+                  </button>
+                {isFeedbackPopOutVisible  && <PopOutNotDevelop onClose={closePopOuts} />}
               </div>
             </div>
         </div>

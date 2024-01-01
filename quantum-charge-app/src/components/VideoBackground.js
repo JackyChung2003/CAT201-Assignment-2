@@ -1,6 +1,7 @@
 // VideoBackground.js
 import React from 'react';
 import './VideoBackground.css';
+import { Link } from 'react-scroll';
 import VideoBg from '../assets/videos/powerbank-video-bg.mp4';
 
 const VideoBackground = () => {
@@ -21,7 +22,15 @@ const VideoBackground = () => {
             <p>
               Your Ultimate Destination for Affordable and Convenient Power Bank Rentals. Charge ahead with ElectroRent's cutting-edge solutions!
             </p>
-            <button className="cta-button">Get Started</button>
+            {/* <button className="cta-button">Get Started</button>
+            <Link to="populars" spy={true} smooth={true} offset={-150} duration={500}>Populars</Link>
+            <button className="cta-button">
+              <Link to="populars" spy={true} smooth={true} offset={-150} duration={500}>Get Started</Link>
+            </button> */}
+            
+            <Link to="populars" spy={true} smooth={true} offset={-150} duration={500}>
+              <button className="cta-button">Get Started</button> 
+            </Link>
           </div>
       </div>
       
