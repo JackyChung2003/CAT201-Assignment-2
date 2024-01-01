@@ -46,22 +46,22 @@ const Navbar = () => {
                         <ul id="navbar" className={click ? "nav-menu active" : "nav-menu"}>
                             {/* <li><a className="active" href="/">Home</a></li> */}
                             <li className='nav-item'>
-                                <Link to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
+                                <Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Home</Link>
                             </li>
                             <li className='nav-item'>
                                 <Link to="populars" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Populars</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to="new-releases" spy={true} smooth={true} offset={-150} duration={500}>New Releases</Link>
+                                <Link to="new-releases" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>New Releases</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to="why-us" spy={true} smooth={true} offset={-150} duration={500}>Why Us</Link>
+                                <Link to="why-us" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Why Us</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>About</Link>
+                                <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>Contact Us</Link>
+                                <Link to="contact" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Contact Us</Link>
                             </li>
                             
                             {/* <li><a href="#populars">Populars</a></li> */}
