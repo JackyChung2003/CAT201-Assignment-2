@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Topsell.css';
 import Powerbank1 from '../assets/images/powerbank_1.jpeg';
+import PopOutNotDevelop from './PopOutNotDevelop';
 
 const Topsell = () => {
     const [isFlipped, setFlipped] = useState(false);
@@ -22,6 +23,15 @@ const Topsell = () => {
       { attribute: 'Weight', value: '200g' },
       // Add more attributes and values as needed
     ];
+    const [isFeedbackPopOutVisible, setIsFeedbackPopOutVisible] = useState(false);
+
+  const handleFeedbackPopOutToggle = () => {
+    setIsFeedbackPopOutVisible(!isFeedbackPopOutVisible);
+  };
+
+  const closePopOuts = () => {
+    setIsFeedbackPopOutVisible(false);
+  };
 
     return (
         <div className='main-topsell' id='populars'>
@@ -43,9 +53,10 @@ const Topsell = () => {
                           <button className="flip-button" onClick={handleFlip}>
                             <span class="hover-underline-animation"> View detail </span>
                           </button>
-                          <button className="buy-button" onClick={handleFlip}>
+                          <button className="buy-button" onClick={handleFeedbackPopOutToggle}>
                             <span>Buy Now</span>
                           </button>
+                          
                         </div>
                         
                     </div>
@@ -84,7 +95,7 @@ const Topsell = () => {
                           <button className="flip-button" onClick={handleFlip}>
                             <span class="hover-underline-animation"> Return </span>
                           </button>
-                          <button className="buy-button" onClick={handleFlip}>
+                          <button className="buy-button" onClick={handleFeedbackPopOutToggle}>
                             <span>Buy Now</span>
                           </button>
                         </div>
@@ -93,6 +104,7 @@ const Topsell = () => {
               </div>
 
             </div>
+            {isFeedbackPopOutVisible  && <PopOutNotDevelop onClose={closePopOuts} />}
         </div>
         
     );

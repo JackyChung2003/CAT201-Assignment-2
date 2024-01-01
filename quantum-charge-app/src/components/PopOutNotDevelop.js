@@ -4,10 +4,6 @@
 import React, { useState, useEffect } from 'react';
 
 import './PopOutNotDevelop.css'; // Import your CSS file
-import Jacky_Picture from '../assets/images/Jacky.png';
-import HongJun_Picture from '../assets/images/HongJun.png';
-import Axler_Picture from '../assets/images/Axler.png';
-import Andrew_Picture from '../assets/images/Andrew.png';
 import sad_people_video from '../assets/videos/sad-people.mp4';
 
 

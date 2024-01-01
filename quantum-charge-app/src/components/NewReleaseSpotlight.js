@@ -1,11 +1,23 @@
 // NewReleaseSpotlight.js
-import React from 'react';
+import React, { useState } from 'react';
 import './NewReleaseSpotlight.css'; // Import the CSS file for styling
 import New_Powerbank1 from '../assets/images/new_powerbank_1.png';
 import New_Powerbank2 from '../assets/images/new_powerbank_2.png';
 import New_Powerbank3 from '../assets/images/new_powerbank_3.png';
 
+import PopOutNotDevelop from './PopOutNotDevelop';
+
 const NewReleaseSpotlight = () => {
+  const [isFeedbackPopOutVisible, setIsFeedbackPopOutVisible] = useState(false);
+
+  const handleFeedbackPopOutToggle = () => {
+    setIsFeedbackPopOutVisible(!isFeedbackPopOutVisible);
+  };
+
+  const closePopOuts = () => {
+    setIsFeedbackPopOutVisible(false);
+  };
+
   return (
     <div className="new-release-spotlight" id='new-releases'>
       <div className="title">
@@ -49,10 +61,11 @@ const NewReleaseSpotlight = () => {
       {/* <div className="ending">ending</div> */}
       <div className="end-title">
         <p>
-        <button className="explore-button" >
-          <span>Explore more</span>
-        </button>
+          <button className="explore-button" onClick={handleFeedbackPopOutToggle}>
+            <span>Explore more</span>
+          </button>
         </p>
+        {isFeedbackPopOutVisible  && <PopOutNotDevelop onClose={closePopOuts} />}
         {/* <button className="explore-button" >
           <span>Explore more</span>
         </button> */}
