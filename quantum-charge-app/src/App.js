@@ -21,7 +21,7 @@ export default function App() {
       <Statistic/>
       <Topsell/>
       <NewReleaseSpotlight/>
-      {/* <Promoting/> */}
+      <Promoting/>
       <Benefits/>
       <Banner/>
       <AboutUs/>

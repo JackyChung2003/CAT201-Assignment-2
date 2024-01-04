@@ -77,7 +77,7 @@
   width: 90%;
   border-radius: 8px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
-  border: 1px solid #ab5555;
+  /* border: 1px solid #ab5555; */
   display: flex;
   flex-direction: column;
   align-items: left;

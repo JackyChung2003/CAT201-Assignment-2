@@ -11,8 +11,8 @@ const Topsell = () => {
     };
 
     const powerbankDetails = [
-      { attribute: 'Brand', value: 'ABC Electronics' },
-      { attribute: 'Model', value: 'PB-1234' },
+      { attribute: 'Brand', value: 'QuantumCharge' },
+      { attribute: 'Model', value: 'Quantum S8 Ultra' },
       { attribute: 'Capacity', value: '10000mAh' },
       { attribute: 'Output Ports', value: '2' },
       { attribute: 'Output Current', value: '5V/2A (Each)' },
@@ -42,7 +42,7 @@ const Topsell = () => {
                         <img src={Powerbank1} alt='Powerbank1' />
                     </div>
                     <div className='product-info'>
-                        <h1 className='product-title'>BEST SALLER of the year</h1>
+                        <h1 className='product-title'>BEST SELLER of the year</h1>
                         <div className='product-front-info'>
                           <h1>Quantum S8 Ultra</h1>
                           <p>A powerhouse of innovation and style. Experience rapid charging and futuristic design, setting a new standard in portable energy.</p>

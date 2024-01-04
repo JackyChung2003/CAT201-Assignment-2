@@ -33,8 +33,19 @@
 }
 
 .promoting-left-section {
-  background: linear-gradient(to bottom, #241b35, #56427a);
+  /* background: linear-gradient(to bottom, #241b35, #56427a); */
+  background: #000000;
   width: 55%;
+  /* border: 1px solid #fff; */
+  padding: 20px;
+}
+
+.promoting-left-section h1 {
+  /* Add styles for the heading */
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
 }
 
 .promoting-video-section {
@@ -42,10 +53,10 @@
 }
 
 .promoting-right-section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
   overflow: hidden;
-  height: 400px; /* Set a fixed height for the section */
+  /* height: 400px; */
   width: 45%;
   display: flex;
   /* background: linear-gradient(to bottom, #241b35, #56427a); */
