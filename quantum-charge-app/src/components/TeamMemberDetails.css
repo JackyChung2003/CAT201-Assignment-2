@@ -31,7 +31,7 @@
 }
 
 #team-title {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   /* border: 1px solid #ab5555; */
   color: #4b3f61;
   text-align: center;
@@ -59,8 +59,8 @@
 }
 
 .profile-picture {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   /* background: #3498db;  */
   /* background: linear-gradient(
     to bottom,
@@ -93,8 +93,8 @@
 
 #second-img-container {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   /* top: -30%; */
   top: 0;
   left: 0;
@@ -111,7 +111,7 @@
   /* background: #3498db;  */
   /* border-radius: 50%; */
 
-  width: 250px;
+  width: 200px;
   object-fit: cover;
   margin-bottom: 10px;
   /* border: 1px solid #ab5555; */

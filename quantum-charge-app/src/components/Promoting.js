@@ -21,14 +21,23 @@ const Promoting = () => {
                 <div className="promoting-video-section">
                   {/* Your video embed code goes here */}
                   {/* Example: */}
-                  <iframe
+                  {/* <iframe
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/your-video-id"
                     title="Video Title"
                     frameBorder="0"
                     allowFullScreen
-                  ></iframe>
+                  ></iframe> */}
+                  <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/DQq6J35ZgfE" 
+                    title="小翔哥的粉丝藏龙卧虎，爽文男主继承家业剧情竟在现实上演？太爽了" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                  </iframe>
                 </div>
             </div>
 

@@ -28,7 +28,7 @@ const VideoBackground = () => {
               <Link to="populars" spy={true} smooth={true} offset={-150} duration={500}>Get Started</Link>
             </button> */}
             
-            <Link to="populars" spy={true} smooth={true} offset={-150} duration={500}>
+            <Link to="populars" spy={true} smooth={true} offset={-100} duration={500}>
               <button className="cta-button">Get Started</button> 
             </Link>
           </div>

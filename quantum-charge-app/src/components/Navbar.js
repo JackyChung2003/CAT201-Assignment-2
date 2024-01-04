@@ -49,16 +49,16 @@ const Navbar = () => {
                                 <Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Home</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to="populars" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Populars</Link>
+                                <Link to="populars" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Populars</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to="new-releases" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>New Releases</Link>
+                                <Link to="new-releases" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>New Releases</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to="why-us" spy={true} smooth={true} offset={-150} duration={500} onClick={closeMenu}>Why Us</Link>
+                                <Link to="why-us" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Why Us</Link>
                             </li>
                             <li className='nav-item'>
-                                <Link to="about" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>About</Link>
+                                <Link to="about" spy={true} smooth={true} offset={-95} duration={500} onClick={closeMenu}>About</Link>
                             </li>
                             <li className='nav-item'>
                                 <Link to="contact" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>Contact Us</Link>
