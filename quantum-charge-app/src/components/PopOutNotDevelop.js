@@ -43,13 +43,13 @@ const PopOutNotDevelop = ({ onClose }) => {
     <div className="pop-out-overlay-2">
       <div className="pop-out-section-2">
         <div className='pop-out-left-section'>
-            <div className="sad-video-background">
-              {/* <video autoPlay loop muted>
-                <source src={quantum_video_bg} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video> */}
-              <video src={sad_people_video} autoPlay loop muted className='sad-background-video' />
-            </div>
+          <div className="sad-video-background">
+            {/* <video autoPlay loop muted>
+              <source src={quantum_video_bg} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video> */}
+            <video src={sad_people_video} autoPlay loop muted className='sad-background-video' />
+          </div>
           
         </div>
         <div className='pop-out-right-section'>
@@ -66,7 +66,7 @@ const PopOutNotDevelop = ({ onClose }) => {
       {/* <button className="close-button" onClick={onClose}>
         
       </button> */}
-      <button className="close-button" onClick={() => onClose(setIsPopOutOpen(false))}>
+      <button className="pop-out-close-button" onClick={() => onClose(setIsPopOutOpen(false))}>
         {/* Add your close button content */}
       </button>
     </div>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Banner.css'; // Import your CSS file
+import './Banner.css'; 
 import PopOutNotDevelop from './PopOutNotDevelop';
 
 const Banner = () => {
