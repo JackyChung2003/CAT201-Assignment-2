@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/CAT201-Assignment-2/static/css/main.570a3f20.css",
+    "main.js": "/CAT201-Assignment-2/static/js/main.f9b74df1.js",
+    "static/js/787.02052120.chunk.js": "/CAT201-Assignment-2/static/js/787.02052120.chunk.js",
+    "static/media/quantum-bg.mp4": "/CAT201-Assignment-2/static/media/quantum-bg.296dfceeda23f5820e73.mp4",
+    "static/media/powerbank-video-bg.mp4": "/CAT201-Assignment-2/static/media/powerbank-video-bg.94baa65f3f3354fbef22.mp4",
+    "static/media/features_reliable.jpg": "/CAT201-Assignment-2/static/media/features_reliable.9aaf9651020a2d82c93d.jpg",
+    "static/media/team_picture.jpg": "/CAT201-Assignment-2/static/media/team_picture.d98f7981b945a1780941.jpg",
+    "static/media/new_powerbank_3.png": "/CAT201-Assignment-2/static/media/new_powerbank_3.ce0e46faeff8ebfdeac8.png",
+    "static/media/new_powerbank_1.png": "/CAT201-Assignment-2/static/media/new_powerbank_1.b1d5484fe643ab28e88f.png",
+    "static/media/Andrew.png": "/CAT201-Assignment-2/static/media/Andrew.ed1013a244c5dacf9fee.png",
+    "static/media/Jacky.png": "/CAT201-Assignment-2/static/media/Jacky.9fdfd5c52bd5eea12be2.png",
+    "static/media/new_powerbank_2.png": "/CAT201-Assignment-2/static/media/new_powerbank_2.ce8d8b5767460d3c11de.png",
+    "static/media/HongJun.png": "/CAT201-Assignment-2/static/media/HongJun.1ef9499cc54bf0fb34d5.png",
+    "static/media/feedback_picture.jpeg": "/CAT201-Assignment-2/static/media/feedback_picture.be2ae7e42bf4a7df0914.jpeg",
+    "static/media/Axler.png": "/CAT201-Assignment-2/static/media/Axler.b5eba8bc3cd2ec0945dd.png",
+    "static/media/features_portability.jpeg": "/CAT201-Assignment-2/static/media/features_portability.f68e47c84637563a7b4a.jpeg",
+    "static/media/features_fast.jpeg": "/CAT201-Assignment-2/static/media/features_fast.f9b45a4e82e80ff492af.jpeg",
+    "static/media/street_bg.png": "/CAT201-Assignment-2/static/media/street_bg.d71e556d53025fab1b8e.png",
+    "static/media/sad-people.mp4": "/CAT201-Assignment-2/static/media/sad-people.3bb121b50014ce8d3162.mp4",
+    "static/media/powerbank_1.jpeg": "/CAT201-Assignment-2/static/media/powerbank_1.ccaa7e71127181b7fa31.jpeg",
+    "static/media/quantum-charge-logo.png": "/CAT201-Assignment-2/static/media/quantum-charge-logo.3c56a2fbf566c9d526d5.png",
+    "index.html": "/CAT201-Assignment-2/index.html",
+    "main.570a3f20.css.map": "/CAT201-Assignment-2/static/css/main.570a3f20.css.map",
+    "main.f9b74df1.js.map": "/CAT201-Assignment-2/static/js/main.f9b74df1.js.map",
+    "787.02052120.chunk.js.map": "/CAT201-Assignment-2/static/js/787.02052120.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.570a3f20.css",
+    "static/js/main.f9b74df1.js"
+  ]
+}
