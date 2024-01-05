@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CAT201-Assignment-2/static/css/main.73e6aab3.css",
+    "main.css": "/CAT201-Assignment-2/static/css/main.59d31b55.css",
     "main.js": "/CAT201-Assignment-2/static/js/main.67f52ae8.js",
     "static/js/787.02052120.chunk.js": "/CAT201-Assignment-2/static/js/787.02052120.chunk.js",
     "static/media/quantum-bg.mp4": "/CAT201-Assignment-2/static/media/quantum-bg.296dfceeda23f5820e73.mp4",
@@ -22,12 +22,12 @@
     "static/media/powerbank_1.jpeg": "/CAT201-Assignment-2/static/media/powerbank_1.ccaa7e71127181b7fa31.jpeg",
     "static/media/quantum-charge-logo.png": "/CAT201-Assignment-2/static/media/quantum-charge-logo.3c56a2fbf566c9d526d5.png",
     "index.html": "/CAT201-Assignment-2/index.html",
-    "main.73e6aab3.css.map": "/CAT201-Assignment-2/static/css/main.73e6aab3.css.map",
+    "main.59d31b55.css.map": "/CAT201-Assignment-2/static/css/main.59d31b55.css.map",
     "main.67f52ae8.js.map": "/CAT201-Assignment-2/static/js/main.67f52ae8.js.map",
     "787.02052120.chunk.js.map": "/CAT201-Assignment-2/static/js/787.02052120.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73e6aab3.css",
+    "static/css/main.59d31b55.css",
     "static/js/main.67f52ae8.js"
   ]
 }
