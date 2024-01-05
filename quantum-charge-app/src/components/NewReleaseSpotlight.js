@@ -65,13 +65,14 @@ const NewReleaseSpotlight = () => {
             <span>Explore more</span>
           </button>
         </p>
-        {isFeedbackPopOutVisible  && <PopOutNotDevelop onClose={closePopOuts} />}
+        
         {/* <button className="explore-button" >
           <span>Explore more</span>
         </button> */}
       </div>
       
       {/* <button className="explore-button">Explore More</button> */}
+      {isFeedbackPopOutVisible  && <PopOutNotDevelop onClose={closePopOuts} />}
     </div>
   );
 };
