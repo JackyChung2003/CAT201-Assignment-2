@@ -30,8 +30,10 @@ const NewReleaseSpotlight = () => {
             alt="Product 1"
           />
           <div className='product-detail'>
-            <h1>Quantum S8 Ultra</h1>
-            <p>Unmatched Power, Unparalleled Style.Stay charged, stay connected, and embrace the future with Quantum S8 Ultra.</p>
+            <h1>Quantum Charge ProPulse 10000</h1>
+            <p>
+              Experience cutting-edge charging technology with the Quantum Charge ProPulse 10000. Designed for the tech-savvy user on the go, this sleek and durable power bank offers rapid, efficient charging and the reliability you need to stay connected.
+            </p>
           </div>
         </div>
 
@@ -41,8 +43,10 @@ const NewReleaseSpotlight = () => {
             alt="Product 1"
           />
           <div className='product-detail'>
-            <h1>Quantum S8 Ultra</h1>
-            <p>Unmatched Power, Unparalleled Style.Stay charged, stay connected, and embrace the future with Quantum S8 Ultra.</p>
+            <h1>Quantum Charge FlexHub 5000</h1>
+            <p>
+            Unleash the power of convenience with the Quantum Charge FlexHub 5000, your all-in-one charging solution. Featuring built-in cables and wireless charging, this power bank is your perfect companion for daily use and travel, ensuring you're always powered up and ready to go.
+            </p>
           </div>
         </div>
 
@@ -52,8 +56,10 @@ const NewReleaseSpotlight = () => {
             alt="Product 1"
           />
           <div className='product-detail'>
-            <h1>Quantum S8 Ultra</h1>
-            <p>Unmatched Power, Unparalleled Style.Stay charged, stay connected, and embrace the future with Quantum S8 Ultra.</p>
+            <h1>Quantum Charge X500</h1>
+            <p>
+              The Quantum Charge X500: Unleash freedom in the tech wilderness. Ultra-fast charging, 50% in 30 minutes. Intelligent power allocation for multiple devices. Solar panels for on-the-go charging. Rugged, water-resistant, and adventure-ready – your perfect companion, keeping you connected anywhere.
+            </p>
           </div>
         </div>
       </div>

@@ -114,7 +114,7 @@
 /* Media Queries for responsiveness */
 @media only screen and (max-width: 768px) {
   .benefits h1 {
-    font-size: 26px;
+    font-size: 28px;
     font-weight: bold;
     margin-bottom: 10px;
     color: #fff; /* Set the text color */

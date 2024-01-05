@@ -80,6 +80,9 @@
 }
 .social-media-icons span {
   margin-left: 10px;
+  /* border: 1px solid #fff; */
+  width: 20px;
+
   cursor: pointer;
 }
 
