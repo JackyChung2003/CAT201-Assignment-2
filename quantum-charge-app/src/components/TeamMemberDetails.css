@@ -267,6 +267,11 @@
     max-height: 620px;
   }
 
+  .close-button {
+    top: 15%;
+    right: 3%;
+  }
+
   #team-title {
     font-size: 18px;
   }
@@ -306,6 +311,11 @@
 @media screen and (max-width: 520px) {
   .pop-out-section {
     max-height: 500px;
+  }
+
+  .close-button {
+    top: 22%;
+    right: 2%;
   }
 
   #team-title {
