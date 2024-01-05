@@ -55,9 +55,12 @@ const Promoting = () => {
                 
                 
                 <div className="promoting-content-overlay">
-                  <h2>QuantumCharge</h2>
-                  <p>Power Up Your Day, Light Up Your Way: Charge into Tomorrow!</p>
-                  <button className="promoting-about-us-cta-button">Learn More</button>
+                  <h2>Your curiosity makes your whole day better.</h2>
+                  {/* <h3>That's why you need a powerbank that can keep up.</h3> */}
+                  <h3>Watch this video to find out how and why. </h3>
+                  <h3>Don't forget to like, share, and subscribe !</h3>
+                  {/* <p>Power Up Your Day, Light Up Your Way: Charge into Tomorrow!</p> */}
+                  {/* <button className="promoting-about-us-cta-button">Learn More</button> */}
                 </div>
             </div>
         </div>
