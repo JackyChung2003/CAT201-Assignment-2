@@ -1,5 +1,3 @@
-/* Add these styles to your CSS file */
-
 .pop-out-overlay {
   position: fixed;
   top: 0;
@@ -10,15 +8,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Set a high z-index */
+  z-index: 1000;
 }
 
 .pop-out-section {
   background: #fff;
   margin-top: 80px;
-  /* padding: 300px 400px; */
   height: 85%;
-  /* height: auto; */
   width: 90%;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -32,29 +28,22 @@
 }
 
 #team-title {
-  /* margin-bottom: 20px; */
-  /* border: 1px solid #ab5555; */
   color: #4b3f61;
   text-align: center;
   width: 60%;
-  /* box-shadow: 0 20px 50px rgba(74, 0, 224, 0.25); */
 }
 
 .team-card-section {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: row; */
   justify-content: space-between;
-  /* border: 1px solid #ab5555; */
 }
 
 .team-member {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 1px solid #ab5555; */
-  /* width: 100%; */
   width: calc(25% - 20px);
   margin: 10px;
 }
@@ -62,71 +51,43 @@
 .profile-picture {
   width: 200px;
   height: 200px;
-  /* background: #3498db;  */
-  /* background: linear-gradient(
-    to bottom,
-    rgba(142, 45, 226, 0.8),
-    rgba(74, 0, 224, 0.8)
-  ); */
   border-radius: 50%;
   margin-bottom: 10px;
-  /* border: 1px solid #ab5555; */
-  /* overflow: hidden; */
   position: relative;
-
-  /* box-shadow: 0 35px 60px rgba(74, 0, 224, 0.4); */
 }
 
 #first-img {
-  width: 100%; /* Make the image fill the container */
-  /* height: 100%;  */
+  width: 100%;
   height: auto;
   object-fit: cover;
-  /* border-radius: 55%; */
   position: absolute;
   left: 0;
   top: -30%;
-
-  /* clip-path: ellipse(50% 40% at 50% 50%); */
   clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 50%);
-  /* clip-path: ellipse(50% 43% at 50% 54%); */
 }
 
 #second-img-container {
   position: absolute;
   width: 200px;
   height: 200px;
-  /* top: -30%; */
   top: 0;
   left: 0;
-  /* background: #3498db;  */
-  /* background: rgba(212, 85, 85, 0.5); */
-
   overflow: hidden;
   border-radius: 50%;
 }
 
 #second-img {
-  /* width: 250px; */
-  /* height: 250px; */
-  /* background: #3498db;  */
-  /* border-radius: 50%; */
-
   width: 200px;
   object-fit: cover;
   margin-bottom: 10px;
-  /* border: 1px solid #ab5555; */
   overflow: hidden;
   position: relative;
   left: 0;
   top: -30%;
-
-  /* clip-path: ellipse(50% 40% at 50% 50%); */
 }
 
 .member-details {
   text-align: center;
-  /* border: 1px solid #ab5555; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,16 +96,15 @@
 }
 
 #people-name {
-  font-size: 1.5rem; /* Adjust font size as needed */
+  font-size: 1.5rem;
   font-weight: bold;
   color: #666262;
-  margin-bottom: 10px; /* Adjust margin as needed for spacing */
+  margin-bottom: 10px;
   border: none;
 }
 
 #member-position {
-  color: #807878; /* Black text color */
-  /* border: 1px solid #ab5555; */
+  color: #807878;
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
@@ -156,15 +116,12 @@
   font-weight: 400;
   color: #666262;
   text-align: center;
-  color: #333; /* Darker gray text color */
-  margin: 10px 0; /* Adjust margin as needed for spacing */
-  /* border: 1px solid #ab5555; */
+  color: #333;
+  margin: 10px 0;
 }
 .close-button {
   position: absolute;
   top: 11%;
-  /* right: 70px; */
-  /* right: calc(100% - 1770px); */
   right: 4%;
   width: 40px;
   height: 40px;
@@ -183,7 +140,7 @@
   left: 50%;
   width: 20px;
   height: 2px;
-  background-color: #fff; /* Adjust the color as needed */
+  background-color: #fff;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
@@ -195,16 +152,10 @@
   overflow: hidden;
 }
 
-/* Add any additional styling you need for the pop-out content */
-
 @media screen and (max-width: 1250px) {
   #team-title {
     margin-bottom: 0px;
     font-size: 24px;
-  }
-
-  .team-member {
-    /* width: calc(50% - 20px); */
   }
 
   .profile-picture {
@@ -236,7 +187,6 @@
 
   .team-member {
     width: calc(50% - 20px);
-    /* border: 1px solid #ab5555; */
   }
 
   .profile-picture {
@@ -282,21 +232,6 @@
 
   .team-member {
     width: calc(50% - 20px);
-    /* border: 1px solid #ab5555; */
-  }
-
-  .profile-picture {
-    /* width: 100px;
-    height: 100px; */
-  }
-
-  #second-img-container {
-    /* width: 100px;
-    height: 100px; */
-  }
-
-  #second-img {
-    /* width: 100px; */
   }
 
   #people-name {

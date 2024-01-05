@@ -1,30 +1,15 @@
-/* Your CSS file */
-
-.promoting {
-  /* Add styles for the promoting section */
-}
-
 .promoting-upper-section {
-  /* Add styles for the upper section */
   background: linear-gradient(to bottom, #241b35, #56427a);
 }
 
 .promoting-upper-section-image {
-  /* border: 1px solid red; */
-  /* height: auto; */
   height: 100px;
   width: 100%;
-  /* background: linear-gradient(to bottom, #f00, #00f); */
   background-image: url("../assets/images/street_bg.png");
-  /* background-image: url("../street_bg.png"); */
   background-repeat: repeat-x;
-  /* background-size: contain; */
   background-size: 30%;
   background-position: center bottom;
-  /* margin-top: 20px; */
   padding: 20px;
-  /* background-size: cover; */
-  /* Add other styles for the upper section image */
 }
 
 .promoting-lower-section {
@@ -33,17 +18,14 @@
 }
 
 .promoting-left-section {
-  /* background: linear-gradient(to bottom, #241b35, #56427a); */
   background: #000000;
   width: 55%;
   max-width: 100%;
-  /* border: 1px solid #fff; */
   padding: 20px;
   height: auto;
 }
 
 .promoting-left-section h1 {
-  /* Add styles for the heading */
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
@@ -51,13 +33,11 @@
 }
 
 .promoting-video-section {
-  /* Add styles for the video section */
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  padding-bottom: 56.25%;
 
   height: 0;
   overflow: hidden;
-  /* max-width: 100%; */
 }
 
 .promoting-video-section iframe,
@@ -71,27 +51,21 @@
 }
 
 .promoting-right-section {
-  /* border: 1px solid red; */
   position: relative;
   overflow: hidden;
-  /* height: 400px; */
   width: 45%;
   display: flex;
-  /* background: linear-gradient(to bottom, #241b35, #56427a); */
   background: #000000;
 }
 
 .quantum-video-background {
-  /* flex: 1; */
   position: absolute;
   top: 0;
   left: 0%;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  /* position: relative; */
   z-index: 0;
-  /* border: 5px solid red; */
 }
 
 .promoting-overlay {
@@ -102,35 +76,30 @@
   height: 100%;
   background-color: rgb(0, 0, 0, 0.65);
   z-index: 0;
-  /* border: 1px solid #fff; */
 }
 
 .promoting-content-overlay {
-  flex: 1; /* Expand to fill available space */
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff; /* Set text color for contrast */
+  color: #fff;
   padding: 20px;
   z-index: 1;
 }
 
 .promoting-content-overlay h2 {
-  /* font-size: 24px; */
   margin: 10px 0;
 }
 
 .promoting-content-overlay h3 {
-  /* font-size: 16px; */
   margin: 5px 0;
 }
 
 .gradient-bg {
   background: linear-gradient(to bottom, #000000, #241b35);
-  /* height: 10%; */
   padding: 2%;
-  /* border: 1px solid #fff; */
 }
 
 @media screen and (max-width: 768px) {
@@ -154,13 +123,10 @@
   }
 
   .promoting-right-section {
-    /* border: 1px solid red; */
     position: relative;
     overflow: hidden;
-    /* height: 400px; */
     width: 100%;
     display: flex;
-    /* background: linear-gradient(to bottom, #241b35, #56427a); */
     background: #000000;
     height: 300px;
   }

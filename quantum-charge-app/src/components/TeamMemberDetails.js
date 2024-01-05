@@ -1,9 +1,5 @@
-// TeamMemberDetails.js
-
-// import React from 'react';
 import React, { useState, useEffect } from 'react';
-
-import './TeamMemberDetails.css'; // Import your CSS file
+import './TeamMemberDetails.css'; 
 import Jacky_Picture from '../assets/images/Jacky.png';
 import HongJun_Picture from '../assets/images/HongJun.png';
 import Axler_Picture from '../assets/images/Axler.png';
@@ -14,14 +10,6 @@ const TeamMemberDetails = ({ onClose }) => {
   const [isPopOutOpen, setIsPopOutOpen] = useState(false);
 
   useEffect(() => {
-    // Function to toggle the scroll lock
-    // const toggleScrollLock = () => {
-    //   if (isPopOutOpen) {
-    //     document.body.style.overflow = 'hidden';
-    //   } else {
-    //     document.body.style.overflow = 'auto';
-    //   }
-    // };
     const toggleScrollLock = () => {
       const body = document.body;
     
@@ -79,7 +67,6 @@ const TeamMemberDetails = ({ onClose }) => {
               <p id='member-position'>CTO </p>
               <p id='member-position'>164723</p>
               <p id='member-info'>Technical mastermind overseeing advanced battery systems and charging solutions for QuantumCharge.</p>
-              {/* Add other information about Team Member 2 */}
             </div>
           </div>
 
@@ -97,7 +84,6 @@ const TeamMemberDetails = ({ onClose }) => {
               <p id='member-position'>CFO </p>
               <p id='member-position'>162331</p>
               <p id='member-info'>Financial steward ensuring QuantumCharge's fiscal health and sustainability.</p>
-              {/* Add other information about Team Member 3 */}
             </div>
           </div>
 
@@ -114,20 +100,12 @@ const TeamMemberDetails = ({ onClose }) => {
               <p id='member-position'>CMO </p>
               <p id='member-position'>164761</p>
               <p id='member-info'>Creative force leading QuantumCharge's brand presence and marketing initiatives.</p>
-              {/* Add other information about Team Member 4 */}
             </div>
           </div>
-
-          {/* <button className="close-button" onClick={onClose}>
-            Close
-          </button> */}
         </div>
       </div>
-      {/* <button className="close-button" onClick={onClose}>
-        
-      </button> */}
+      
       <button className="close-button" onClick={() => onClose(setIsPopOutOpen(false))}>
-        {/* Add your close button content */}
       </button>
     </div>
   );
