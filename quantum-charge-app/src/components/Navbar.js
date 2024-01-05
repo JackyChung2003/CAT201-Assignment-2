@@ -1,6 +1,6 @@
 // import logoImage from '../../assets/images/quantum-charge-logo.png';
 // import logoImage from './../assets/images/logo.png';
-import React, { useState, Component} from 'react';
+import React, { useState} from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
 import LogoImage from '../assets/images/quantum-charge-logo.png';
