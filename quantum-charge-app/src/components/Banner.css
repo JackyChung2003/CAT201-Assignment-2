@@ -1,6 +1,4 @@
 .banner-section {
-  /* background-color: #241b35; */
-  /* background: linear-gradient(45deg, #cb80ff, #a364ff); */
   background: linear-gradient(135deg, #cb80ff, #a364ff);
   padding: 50px;
   text-align: center;
@@ -10,7 +8,6 @@
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
-  /* border: 1px solid #fff; */
   margin-bottom: 15px;
 }
 
@@ -20,18 +17,13 @@
   padding: 10px 20px;
   font-size: 18px;
   font-weight: 600;
-
   border: none;
   cursor: pointer;
-  /* border-radius: 20px; */
   border-radius: 20px;
-  /* border: 1px solid #000; */
-  /* width: 10%; */
   width: 100%;
   max-width: 150px;
 }
 
-/* Media Queries for responsiveness */
 @media only screen and (max-width: 768px) {
   .banner-section {
     padding: 30px;
