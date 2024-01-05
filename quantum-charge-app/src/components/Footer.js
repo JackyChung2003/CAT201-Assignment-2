@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.css'; // Import your CSS file for styling
 import LogoImage from '../assets/images/quantum-charge-logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -63,9 +65,18 @@ const Footer = () => {
         <div className="social-media-icons">
           <h3>Follow Us</h3>
           {/* Add your social media icons here */}
-          <span>Icon1</span>
+          {/* <span>Icon1</span>
           <span>Icon2</span>
-          <span>Icon3</span>
+          <span>Icon3</span> */}
+          <span>
+            <FontAwesomeIcon icon={faFacebook} />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faTwitter} />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faInstagram} />
+          </span>
         </div>
       </div>
     </footer>
