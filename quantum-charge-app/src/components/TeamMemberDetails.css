@@ -18,6 +18,7 @@
   margin-top: 80px;
   /* padding: 300px 400px; */
   height: 85%;
+  /* height: auto; */
   width: 90%;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -147,6 +148,7 @@
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
+  margin: 0px;
 }
 
 #member-info {
@@ -223,6 +225,13 @@
 @media screen and (max-width: 990px) {
   #team-title {
     font-size: 22px;
+    margin: 0px;
+  }
+
+  #people-name {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 0px;
   }
 
   .team-member {
@@ -254,6 +263,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .pop-out-section {
+    max-height: 620px;
+  }
+
   #team-title {
     font-size: 18px;
   }
@@ -291,6 +304,10 @@
 }
 
 @media screen and (max-width: 520px) {
+  .pop-out-section {
+    max-height: 500px;
+  }
+
   #team-title {
     font-size: 12px;
   }

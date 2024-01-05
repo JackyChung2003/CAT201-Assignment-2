@@ -1,6 +1,6 @@
 // import logoImage from '../../assets/images/quantum-charge-logo.png';
 // import logoImage from './../assets/images/logo.png';
-import React, { useState, Component} from 'react';
+import React, { useState} from 'react';
 import { Link } from 'react-scroll';
 import './Navbar.css';
 import LogoImage from '../assets/images/quantum-charge-logo.png';
@@ -34,7 +34,14 @@ const Navbar = () => {
             <div className='header'>
                 
                 <nav>
-                    <Link href="/" class="logo-link">
+                    {/* <Link href="/" class="logo-link">
+                        <div class="logo-container">
+                            <img className="logo-img" src={LogoImage} alt="QuantumCharge Icon" />
+                            <h1 className='logo-name'>QuantumCharge</h1>
+                        </div>
+                    </Link> */}
+                    
+                    <Link to="home" class="logo-link" spy={true} smooth={true} offset={0} duration={500} onClick={closeMenu}>
                         <div class="logo-container">
                             <img className="logo-img" src={LogoImage} alt="QuantumCharge Icon" />
                             <h1 className='logo-name'>QuantumCharge</h1>
