@@ -36,7 +36,12 @@ const Promoting = () => {
                     title="小翔哥的粉丝藏龙卧虎，爽文男主继承家业剧情竟在现实上演？太爽了" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    allowfullscreen>
+                    // allowfullscreen
+                    allowfullscreen="allowfullscreen"
+                    mozallowfullscreen="mozallowfullscreen" 
+                    msallowfullscreen="msallowfullscreen" 
+                    oallowfullscreen="oallowfullscreen" 
+                    webkitallowfullscreen="webkitallowfullscreen">
                   </iframe>
                 </div>
             </div>
