@@ -11,6 +11,8 @@ Welcome to the QuantumCharge website project for Assignment 2!
 ## Previews
 
 ![Preview QuantumCharge Website GIF](https://github.com/JackyChung2003/CAT201-Assignment-2/blob/main/QuantumCharge-website-preview.gif)
+[![Preview QuantumCharge Website GIF](https://github.com/JackyChung2003/CAT201-Assignment-2/blob/main/QuantumCharge-website-preview.gif)](https://jackychung2003.github.io/CAT201-Assignment-2/)
+
 
 ## Deployment
 
