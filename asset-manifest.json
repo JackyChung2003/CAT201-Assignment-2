@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/CAT201-Assignment-2/static/css/main.20857268.css",
-    "main.js": "/CAT201-Assignment-2/static/js/main.74cf3022.js",
+    "main.css": "/CAT201-Assignment-2/static/css/main.931788ab.css",
+    "main.js": "/CAT201-Assignment-2/static/js/main.93d22bcf.js",
     "static/js/787.02052120.chunk.js": "/CAT201-Assignment-2/static/js/787.02052120.chunk.js",
     "static/media/quantum-bg.mp4": "/CAT201-Assignment-2/static/media/quantum-bg.296dfceeda23f5820e73.mp4",
     "static/media/powerbank-video-bg.mp4": "/CAT201-Assignment-2/static/media/powerbank-video-bg.94baa65f3f3354fbef22.mp4",
     "static/media/features_reliable.jpg": "/CAT201-Assignment-2/static/media/features_reliable.9aaf9651020a2d82c93d.jpg",
-    "static/media/team_picture.jpg": "/CAT201-Assignment-2/static/media/team_picture.d98f7981b945a1780941.jpg",
     "static/media/new_powerbank_3.png": "/CAT201-Assignment-2/static/media/new_powerbank_3.ce0e46faeff8ebfdeac8.png",
+    "static/media/team_picture.jpeg": "/CAT201-Assignment-2/static/media/team_picture.fd0bc263404416be3205.jpeg",
     "static/media/new_powerbank_1.png": "/CAT201-Assignment-2/static/media/new_powerbank_1.b1d5484fe643ab28e88f.png",
     "static/media/Andrew.png": "/CAT201-Assignment-2/static/media/Andrew.ed1013a244c5dacf9fee.png",
     "static/media/Jacky.png": "/CAT201-Assignment-2/static/media/Jacky.9fdfd5c52bd5eea12be2.png",
@@ -22,12 +22,12 @@
     "static/media/powerbank_1.jpeg": "/CAT201-Assignment-2/static/media/powerbank_1.ccaa7e71127181b7fa31.jpeg",
     "static/media/quantum-charge-logo.png": "/CAT201-Assignment-2/static/media/quantum-charge-logo.3c56a2fbf566c9d526d5.png",
     "index.html": "/CAT201-Assignment-2/index.html",
-    "main.20857268.css.map": "/CAT201-Assignment-2/static/css/main.20857268.css.map",
-    "main.74cf3022.js.map": "/CAT201-Assignment-2/static/js/main.74cf3022.js.map",
+    "main.931788ab.css.map": "/CAT201-Assignment-2/static/css/main.931788ab.css.map",
+    "main.93d22bcf.js.map": "/CAT201-Assignment-2/static/js/main.93d22bcf.js.map",
     "787.02052120.chunk.js.map": "/CAT201-Assignment-2/static/js/787.02052120.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20857268.css",
-    "static/js/main.74cf3022.js"
+    "static/css/main.931788ab.css",
+    "static/js/main.93d22bcf.js"
   ]
 }
