@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TeamMemberDetails from './TeamMemberDetails';
 import PopOutNotDevelop from './PopOutNotDevelop';
 import './AboutUs.css'; 
-import Team_Picture from '../assets/images/team_picture.jpg';
+import Team_Picture from '../assets/images/team_picture.jpeg';
 import Feedback_Picture from '../assets/images/feedback_picture.jpeg';
 
 const AboutUs = () => {
