@@ -55,3 +55,7 @@ npm start
 ```
 
 This will start the development server, and you can view the website at http://localhost:3000 in your browser.
+
+## Screenshot
+
+![QuantumCharge](https://github.com/JackyChung2003/CAT201-Assignment-2/assets/116894695/b0c2272c-e04a-4b55-86a9-e0a5122b3758)
